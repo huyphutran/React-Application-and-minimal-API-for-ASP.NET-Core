@@ -14,6 +14,7 @@ builder.Services.AddSwaggerGen(c =>
 // 1) define a unique string
 string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
+
 // 2) define allowed domains, in this case "http://example.com" and "*" = all
 //    domains, for testing purposes only.
 builder.Services.AddCors(options =>
